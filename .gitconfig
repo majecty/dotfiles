@@ -1,0 +1,27 @@
+[color]
+        branch = auto
+        diff = auto
+        status = auto
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+[user]
+        name = Juhyeong Park
+        email = jh@company100.com
+[alias]
+        log = log --decorate=short
+        lg = log --decorate=short
+[core]
+        editor = vim
+[log]
+        decorate = short
